@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Scanit</string>
+    <string name="splash_text">Scan It</string>
+    <string name="provide_permissions">Please Provide Permission</string>
+    <string name="txt_format">Format</string>
+    <string name="txt_time">Time</string>
+    <string name="txt_save">Save</string>
+    <string name="txt_qr_code">QRCode</string>
+    <string name="txt_scan_code">Scan the Code</string>
+    <string name="scan_it">Scan It</string>
+</resources>

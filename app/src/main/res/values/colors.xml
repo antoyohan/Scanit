@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#ffffff</color>
+    <color name="ultramarine_blue">#3a55ff</color>
+    <color name="davy_grey">#595959</color>
+    <color name="majorelle_blue">#6946f4</color>
+    <color name="black">#000000</color>
+    <color name="munsell">#f1f1f1</color>
+    <color name="manatee">#9d9d9d</color>
+    <color name="ultramarine_blue_1">#4152fd</color>
+    <color name="manatee_1">#979797</color>
+    <color name="cg_red">#e53935</color>
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal" android:orientation="vertical">
+
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="@dimen/qr_top_margin"
+                   android:src="@drawable/qr"/>
+
+        <TextView
+            android:id="@+id/tv_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/text_bottom_margin"
+            android:layout_marginTop="@dimen/text_top_margin"
+            android:textColor="@color/davy_grey"
+            android:textSize="@dimen/label_text"/>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="@dimen/metadata_top_margin"
+                      android:orientation="horizontal"
+                      android:paddingLeft="@dimen/label_margin">
+            <TextView android:layout_width="0dp"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:text="@string/txt_format"
+                      android:textColor="@color/davy_grey"
+                      android:textSize="@dimen/label_text"
+                      android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_format"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/davy_grey"
+                android:textSize="@dimen/label_text"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="@dimen/metadata_top_margin"
+                      android:orientation="horizontal"
+                      android:paddingLeft="@dimen/label_margin">
+            <TextView android:layout_width="0dp"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:text="@string/txt_time"
+                      android:textColor="@color/davy_grey"
+                      android:textSize="@dimen/label_text"
+                      android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/davy_grey"
+                android:textSize="@dimen/label_text"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/view_gradient">
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerInParent="true"
+                  android:drawableLeft="@drawable/save"
+                  android:drawablePadding="@dimen/drawable_padding"
+                  android:padding="@dimen/save_padding"
+                  android:text="@string/txt_save"
+                  android:textColor="@color/white"
+                  android:textSize="@dimen/txt_save"/>
+    </RelativeLayout>
+</RelativeLayout>
